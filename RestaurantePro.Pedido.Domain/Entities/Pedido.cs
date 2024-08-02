@@ -9,5 +9,13 @@ namespace RestaurantePro.Pedido.Domain.Entites
     {
         [Column("IdPedido")]
         public override int Id { get; set; }
+        
+        public DateOnly? Fecha { get; set; }
+
+        public decimal? Total { get; set; }
+
+        public int? IdCliente { get; set; }
+        public int? IdMesa { get; set; }
+        
     }
 }

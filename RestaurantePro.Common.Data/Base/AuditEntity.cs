@@ -10,7 +10,6 @@ namespace RestaurantePro.Common.Data.Base
 
         public DateTime? modify_date { get; set; }
 
-        public int? UserMod { get; set; }
         public int? modify_user { get; set; }
         public int? delete_user { get; set; }
         public DateTime? delete_date { get; set; }

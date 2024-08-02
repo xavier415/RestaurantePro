@@ -29,13 +29,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DA0944
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{6C621697-6850-4DEA-8C07-740211D7ADCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantePro.Pedido.Api", "RestaurantePro.Pedido.Api\RestaurantePro.Pedido.Api.csproj", "{9C0386E1-4261-4B8A-9C1A-DE577DD89236}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantePro.Pedido.Api", "RestaurantePro.Pedido.Api\RestaurantePro.Pedido.Api.csproj", "{9C0386E1-4261-4B8A-9C1A-DE577DD89236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantePro.Pedido.Application", "RestaurantePro.Pedido.Application\RestaurantePro.Pedido.Application.csproj", "{D87661F0-DCAC-42A3-A573-103EDD7A93D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantePro.Pedido.Application", "RestaurantePro.Pedido.Application\RestaurantePro.Pedido.Application.csproj", "{D87661F0-DCAC-42A3-A573-103EDD7A93D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantePro.Pedido.Domain", "RestaurantePro.Pedido.Domain\RestaurantePro.Pedido.Domain.csproj", "{8D9F7B23-C465-468D-9B75-7BC82C5A2924}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantePro.Pedido.Domain", "RestaurantePro.Pedido.Domain\RestaurantePro.Pedido.Domain.csproj", "{8D9F7B23-C465-468D-9B75-7BC82C5A2924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantePro.Pedido.Persistance", "RestaurantePro.Pedido.Persistance\RestaurantePro.Pedido.Persistance.csproj", "{95B5FCA2-A66E-4BF0-823C-25E8B640C1A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantePro.Pedido.Persistance", "RestaurantePro.Pedido.Persistance\RestaurantePro.Pedido.Persistance.csproj", "{95B5FCA2-A66E-4BF0-823C-25E8B640C1A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{990579A8-04C2-4F03-80F9-B8030DA259B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantePro.Pedido.IOC", "RestaurantePro.Pedido.IOC\RestaurantePro.Pedido.IOC.csproj", "{9C6DD30D-520F-49E0-9156-DED73E4BA687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{95B5FCA2-A66E-4BF0-823C-25E8B640C1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B5FCA2-A66E-4BF0-823C-25E8B640C1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B5FCA2-A66E-4BF0-823C-25E8B640C1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6DD30D-520F-49E0-9156-DED73E4BA687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6DD30D-520F-49E0-9156-DED73E4BA687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6DD30D-520F-49E0-9156-DED73E4BA687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6DD30D-520F-49E0-9156-DED73E4BA687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +96,8 @@ Global
 		{D87661F0-DCAC-42A3-A573-103EDD7A93D5} = {E70A15E5-0968-4CA5-BD86-F8650C20BBDE}
 		{8D9F7B23-C465-468D-9B75-7BC82C5A2924} = {DA0944FB-8FD3-4036-86B0-78B6C72DFE72}
 		{95B5FCA2-A66E-4BF0-823C-25E8B640C1A6} = {6C621697-6850-4DEA-8C07-740211D7ADCB}
+		{990579A8-04C2-4F03-80F9-B8030DA259B7} = {6763CA47-12C4-4AE4-B578-97978DEF2250}
+		{9C6DD30D-520F-49E0-9156-DED73E4BA687} = {990579A8-04C2-4F03-80F9-B8030DA259B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E74B095-3962-4B9B-B452-134B8C534707}

@@ -11,15 +11,42 @@ namespace RestaurantePro.Common.Data.Repository
     /// <typeparam name="TType">Id por donde se va a buscar</typeparam>
     public  interface IBaseRepository<TEntity, TType> where  TEntity : class
     {
-        ///
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
         void Save(TEntity entity);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
         void Update(TEntity entity);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
         void Remove(TEntity entity);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
 
         List<TEntity> GetAll();
 
-        TEntity GetEntityBy(TType Id);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
 
+        TEntity GetEntityBy(TType Id);
         bool Exists (Expression<Func<TEntity, bool>> filter);
+
+        
+       
+        
     }
 }
