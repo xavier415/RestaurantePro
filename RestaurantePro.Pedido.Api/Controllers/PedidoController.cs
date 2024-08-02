@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using RestaurantePro.Pedido.Application.Contracts;
 using RestaurantePro.Pedido.Application.Extentions;
 using RestaurantePro.Pedido.Application.PedidosDto;
+using System;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,10 +16,11 @@ namespace RestaurantePro.Pedido.Api.Controllers
         private readonly IPedidoService pedidoService;
         public PedidoController(IPedidoService pedidoService)
         {
-                this.pedidoService = pedidoService;
+                this.pedidoService = pedidoService; 
+
         }
 
-        
+
         [HttpGet("GetPedido")]
         public IActionResult Get()
         {
