@@ -118,6 +118,7 @@ namespace RestaurantePro.Pedido.Application.Services
                     IdMesa = pedidoDtoSave.IdMesa,
                     Total = pedidoDtoSave.Total,
                     
+                    
 
 
                 };
