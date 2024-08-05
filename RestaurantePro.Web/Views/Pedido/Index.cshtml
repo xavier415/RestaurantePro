@@ -1,0 +1,59 @@
+﻿@model IEnumerable<RestaurantePro.Web.Models.PedidoGetModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Pedido List </h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.IdPedido)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.creation_user)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.creation_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.deleted)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayNameFor(model => model.IdPedido)
+                </td>
+
+                <td>
+                    @Html.DisplayNameFor(model => model.creation_user)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.creation_date)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.deleted)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.IdPedido }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.IdPedido }) |
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>

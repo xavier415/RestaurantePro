@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantePro.Pedido.Persi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{990579A8-04C2-4F03-80F9-B8030DA259B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantePro.Pedido.IOC", "RestaurantePro.Pedido.IOC\RestaurantePro.Pedido.IOC.csproj", "{9C6DD30D-520F-49E0-9156-DED73E4BA687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantePro.Pedido.IOC", "RestaurantePro.Pedido.IOC\RestaurantePro.Pedido.IOC.csproj", "{9C6DD30D-520F-49E0-9156-DED73E4BA687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantePro.Web", "RestaurantePro.Web\RestaurantePro.Web.csproj", "{362DCFC7-3670-4199-9731-62955D53D334}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{9C6DD30D-520F-49E0-9156-DED73E4BA687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C6DD30D-520F-49E0-9156-DED73E4BA687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C6DD30D-520F-49E0-9156-DED73E4BA687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362DCFC7-3670-4199-9731-62955D53D334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362DCFC7-3670-4199-9731-62955D53D334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362DCFC7-3670-4199-9731-62955D53D334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362DCFC7-3670-4199-9731-62955D53D334}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{95B5FCA2-A66E-4BF0-823C-25E8B640C1A6} = {6C621697-6850-4DEA-8C07-740211D7ADCB}
 		{990579A8-04C2-4F03-80F9-B8030DA259B7} = {6763CA47-12C4-4AE4-B578-97978DEF2250}
 		{9C6DD30D-520F-49E0-9156-DED73E4BA687} = {990579A8-04C2-4F03-80F9-B8030DA259B7}
+		{362DCFC7-3670-4199-9731-62955D53D334} = {B728B51C-1519-448D-AE2C-A6620AFA9BEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E74B095-3962-4B9B-B452-134B8C534707}
